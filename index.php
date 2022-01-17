@@ -21,8 +21,7 @@ $parolaCensurata = str_replace($_GET['parola'],"***",$paragrafo);
     <h2>Paragrafo censurato</h2>
     <p>
         <?php 
-        echo $paragrafo;
-        echo $parolaCensurata;
+         echo $parolaCensurata;
         ?>
 
     </p>
